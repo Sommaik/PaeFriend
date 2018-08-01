@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--Toolbar-->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBarRegister"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--Content-->
+        <LinearLayout
+            android:background="@drawable/bg_clear"
+            android:layout_margin="30dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--Photo-->
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!--Name-->
+            <EditText
+                android:textSize="15sp"
+                android:background="@drawable/name_field"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Name :"
+                android:inputType="text" />
+
+            <!--User-->
+            <EditText
+                android:textSize="15sp"
+                android:background="@drawable/user_field"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="User :"
+                android:inputType="text" />
+
+            <!--Password-->
+            <EditText
+                android:textSize="15sp"
+                android:background="@drawable/password_field"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Password :"
+                android:inputType="text" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
