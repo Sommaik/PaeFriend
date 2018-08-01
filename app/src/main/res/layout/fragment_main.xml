@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <!--Content-->
+    <LinearLayout
+        android:background="@drawable/bg_clear"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp">
+
+        <!--Logo-->
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!--User-->
+        <EditText
+            android:textSize="15sp"
+            android:background="@drawable/user_field"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="User :"
+            android:inputType="text" />
+
+        <!--Password-->
+        <EditText
+            android:background="@drawable/password_field"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password :"
+            android:inputType="textPassword" />
+
+        <!--Login-->
+        <Button
+            android:textColor="#ffffff"
+            android:background="@drawable/button_pae"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login" />
+
+        <!--Register-->
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="center"
+            android:text="New Register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
